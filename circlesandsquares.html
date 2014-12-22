@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #containerElement {
+            /*border: 10px solid purple;*/
+            width: 95%;
+            height: 800px;
+            position: relative;
+            padding: 15px;
+            border-radius: 10%
+        }
+
+        .particle {
+            border: 5px solid black;
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            background-color: #05EDFF;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="containerElement"></div>
+<script>
+
+    var particleFactory = function (particle, container) {
+        this.particle = particle;
+        this.container = container;
+
+        var r = Math.floor(Math.random() * 256);
+        var g = Math.floor(Math.random() * 125);
+        var b = Math.floor(Math.random() * 125);
+        var a = .97;
+        
+        randomColor = 'rgba(' + r + ',' + g + ',' + b + ',' + a + ')';
+
+        this.particle.style.backgroundColor = randomColor;
+
+        var generateHeight = Math.floor(Math.random(.75, 1) * 200)
+        var generateWidth = Math.floor(Math.random(.75, 1) * 200)
+        
+        randomHeight = generateHeight + "px";
+        randomWidth = generateWidth + "px";
+        this.particle.style.height = randomHeight; 
+        this.particle.style.width = randomWidth; 
+
+        var generateRadius = Math.floor(Math.random(.5, 1) * 100)
+        var randomRadius = generateRadius + "%"
+        this.particle.style.borderRadius = randomRadius; 
+
+        this.position = {
+            x: Math.random() * 1100,
+            y: Math.random() * 1100
+        };
+
+        var bellCurve = Math.random() * Math.random() * Math.random();
+        var bellCurve2 = Math.random() * Math.random() * Math.random();
+
+        this.directionAndVelocityVector = {
+            vx: bellCurve * 20 - 10,
+            vy: bellCurve2 * 20 - 10
+        };
+
+        this.detectCollision = function () {
+            var container = this.container;
+            var particle = this.particle;
+            var position = this.position;
+
+            var directionAndVelocityVector = this.directionAndVelocityVector;
+
+            if (position.x > (container.offsetWidth - particle.offsetWidth)) {
+                position.x = container.offsetWidth - particle.offsetWidth;
+                directionAndVelocityVector.vx = -directionAndVelocityVector.vx;
+            } else if (position.x < 0) {
+                position.x = 0;
+                directionAndVelocityVector.vx = -directionAndVelocityVector.vx;
+            }
+
+            if (position.y > (container.offsetHeight - particle.offsetHeight)) {
+                position.y = container.offsetHeight - particle.offsetHeight;
+                directionAndVelocityVector.vy = -directionAndVelocityVector.vy;
+            } else if (position.y < 0) {
+                position.y = 0;
+                directionAndVelocityVector.vy = -directionAndVelocityVector.vy;
+            }
+            return this;
+        };
+
+
+        this.move = function() {
+            this.position.x += this.directionAndVelocityVector.vx;
+            this.position.y += this.directionAndVelocityVector.vy;
+            this.detectCollision();
+            particle.style.left = Math.ceil(this.position.x) + "px";
+            particle.style.top = Math.ceil(this.position.y) + "px";
+
+        };
+
+    };
+
+    var particle_list = [];
+    var maxBalls = 600;
+    function init() {
+        var containerElement = document.getElementById("containerElement");
+
+        for (var i = 0; i < maxBalls; i++) {
+            var particleElement = document.createElement("div");
+            particleElement.classList.add("particle");
+            particle_list.push(new particleFactory(particleElement, containerElement));
+            containerElement.appendChild(particleElement);
+        }
+    }
+
+    init();
+
+    var drawingCount = 0;
+
+    function draw() {
+        requestAnimationFrame(draw);
+        for (var i = 0; i < maxBalls; i++) {
+            particle_list[i].move();
+        }
+    }
+
+    draw();
+  
+
+</script>
+</body>
+</html>

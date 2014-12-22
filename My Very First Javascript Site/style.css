@@ -1,0 +1,83 @@
+body {
+	background-color: white;
+
+	}
+
+#goodBye {
+	display: none;
+}
+#container {
+	height: 100%;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.button {
+	height: 50px;
+	width: 200px;
+	color: white;
+	background-color: darkorange;
+	border: none;
+	padding: 10px;
+	font-size: .5em;
+	display: inline-block;
+	margin: 5px;
+}
+
+.button:hover {
+	background-color: orange;
+}
+
+#yellowBox {
+	height: 150px;
+	width: 267px;
+	border: solid 3px black;
+	background-color: yellow;
+	margin: auto;
+	margin-top: 15px;
+	display: none;
+	padding-top: 20px;
+}
+
+#hello {
+	margin: 25px;
+	display: none;
+	color: black;
+}
+
+.colorBox {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	text-align: justify;
+	margin: 5px;
+
+}
+#blackToWhite {
+	background-color: black;
+	
+}
+
+#blueToOrange {
+	background-color: #2574A9;
+}
+
+#grayToTeal {
+	background-color: #6C7A89;
+}
+
+#blackToWhite:hover {
+	background-color: white;
+	border: solid black 5px;
+}
+
+#blueToOrange:hover {
+	background-color: #e74c3c;
+	border: solid #e74c3c 5px;
+}
+
+#grayToTeal:hover {
+	background-color: #1abc9c;
+	border: solid #1abc9c 5px;
+}
