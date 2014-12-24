@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Thumbnail Cycle Tutorial</title> 
+	<style>
+		.item {
+		float: left;
+		border: #AAA 1px solid;
+		padding: 10px;
+		margin: 10px;
+		}
+		.item > img {
+		width: 180px;
+		height: 140px;
+		border: #666 1px solid;
+			cursor: pointer;
+		}
+		.item > span {
+		display: block;
+		text-align: center;
+		margin-top: 10px;
+		}
+	</style>
+<script>
+	window.addEventListener("load", function(){
+		var items_container = document.getElementById("items_container");
+		var thumbtimer, ti=0, dir="item_images/";
+	}); 
+</script>
+</head>
+<body>
+	<div id="items_container"></div>
+</body>
+</html>
