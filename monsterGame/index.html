@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+	<body>
+		<script>
+var Monster = function(breed, size, color, weapon) {
+	
+	this.size = size; 
+	this.color = color; 
+	this.breed = breed; 
+	this.weapon = weapon; 
+
+	if (size === "tiny") {
+		this.hitPoints = 25;
+	} else if (size === "medium") {
+		this.hitPoints = 50; 
+	} else if (size === "huge") {
+		this.hitPoints = 100;
+	} else {
+		size = 75;
+	};
+
+	if (this.breed === "dragon") {
+		this.breathesFire = true;
+	} else {
+		this.breathesFire = false; 
+	}; 
+
+	if (this.breed === "fairy") {
+		    this.sound = "twinkle twinkle!";
+		} else if (this.breed === "dragon") {
+			this.sound = "firebreath!"
+		} else if (this.breed === "ogre") {
+			this.sound = "blarrrrrggghhh!"
+		} else {
+			this.sound = "hurggyburggg"
+		};
+
+	this.makeNoise = function(){
+		var sound = this.sound;
+		var loudSound = sound.toUpperCase(); 
+		return "The " + this.breed + " says " + loudSound + "!"
+	};
+
+	this.attack = function(){
+		return "The " + this.breed + " attacked you with its " + this.weapon + "!"
+	};
+
+	this.specialAttack  = function() {
+		if(breed === "dragon") {
+			return "You have been burnt to a crisp. Goodbye."
+		} else if (breed === "alien") {
+			return "You have been probed. And not in a good way."
+		} else if (breed === "fairy") {
+			return "You've choked on magic fairy dust. How tragic."
+		} else {
+			return "You've been generically attacked. Oh no!"
+		};
+	};
+
+};
+
+	var Dragon = new Monster("dragon", "huge", "green", "teeth"); 
+
+	var Ogre = new Monster("ogre", "medium", "brown", "club");
+
+	var Fairy = new Monster("fairy", "tiny", "pink", "wand");
+
+	var MelGibson = new Monster("Mel Gibson", "tiny", "periwinkle", "bad acting");
+
+	var Alien = new Monster("alien", "kinda big", "green", "probe");
+
+	var Unicorn = new Monster("unicorn", "medium", "white", "magical unicorn horn");
+	
+
+    var monsters = [];
+
+    
+
+
+// var getAllMonsters = function(){
+
+
+
+</script> 
+	</body>
+</html>
