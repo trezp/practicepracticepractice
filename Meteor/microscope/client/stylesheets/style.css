@@ -28,8 +28,7 @@ opacity: 0; } .post.instant {
 -webkit-transition: none; -moz-transition: none; -o-transition: none; transition: none; }
 .post.animate{
 -webkit-transition: all 300ms 0ms;
-￼
-￼￼-webkit-transition-delay: ease-in; -moz-transition: all 300ms 0ms ease-in; -o-transition: all 300ms 0ms ease-in; transition: all 300ms 0ms ease-in; }
+-webkit-transition-delay: ease-in; -moz-transition: all 300ms 0ms ease-in; -o-transition: all 300ms 0ms ease-in; transition: all 300ms 0ms ease-in; }
 .post .upvote { display: block; margin: 7px 12px 0 0; float: left; }
 .post .post-content { float: left; }
 .post .post-content h3 {
@@ -51,7 +50,7 @@ font-weight: normal; } .comments li h4 a {
 font-size: 12px; } .comments li p:last-child {
 margin-bottom: 0; }
 .dropdown-menu span { display: block; padding: 3px 20px; clear: both; line-height: 20px; color: #bbb; white-space: nowrap; }
-￼￼.load-more {
+.load-more {
 display: block; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px;
 background: rgba(0, 0, 0, 0.05); text-align: center;
 height: 60px;
