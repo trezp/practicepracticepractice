@@ -1,0 +1,33 @@
+<head>
+	<title>Stuff</title>
+</head> 
+<body>
+	<h1>Welcome!</h1>
+		{{> nameList}}
+	<h1>Here is another template!</h1>
+		{{> countryList}}
+</body>
+
+<template name="nameList">
+	<ul>
+		{{#each people}}
+		<li>Hello, my name is {{firstName}}!</li>
+		{{/each}}
+	</ul>
+</template>
+
+<template name="countryList">
+	<ul>
+		{{#each countries}}
+		<li>I'd really like to move to {{country}}.</li>
+		{{/each}}
+	</ul>
+</template>
+
+<template name="boxes">
+	<ul>
+		{{#each countries}}
+		<li>I'd really like to move to {{country}}.</li>
+		{{/each}}
+	</ul>
+</template>
