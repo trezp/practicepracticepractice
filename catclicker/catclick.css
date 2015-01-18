@@ -1,0 +1,31 @@
+
+#catpic1 {
+	display: inline;
+	float: left;
+}
+
+#catpic2{
+	display: inline;
+	float: right;
+}
+
+#container {
+	max-width: 700px;
+	margin: auto;
+}
+
+.cats {
+	height: 300px;
+	width: 275px;
+}
+
+#catclick1 {
+	display: inline;
+}
+#catclick2 {
+	display: inline;
+}
+
+header {
+	text-align: center;
+}
