@@ -1,24 +1,34 @@
-var catclick1 = document.getElementById("catclick1");
-var catclick2 = document.getElementById("catclick2");
-var count1 = document.getElementById("count1").innerHTML;
-var count2 = document.getElementById("count2").innerHTML;
-var catname1 = document.getElementById("catname1");
-var catname1 = document.getElementById("catname1");
+var catName = document.getElementById("catname");
+var catNames = document.getElementsByClassName("catnames");
+var catPics = document.getElementById("catpics");
+var count = document.getElementById('count');
 
 
+//cat list
+var chewy = "<img src=\"images/chewy.jpg\">"
+var elmer = "<img src=\"images/elmer.jpg\">"
+var jody = "<img src=\"images/jody.jpg\">"
+var layla = "<img src=\"images/layla.jpg\">"
+var lucifer = "<img src=\"images/lucifer.jpg\">"
 
 
-var tally1 = 0
-catclick1.addEventListener('click', function(){
-	tally1 = tally1 + 1
-	var result = document.getElementById('count1').innerHTML = tally1;
-}, false)
+var cats = [chewy, elmer, jody, layla, lucifer]
 
-var tally2 = 0
-catclick2.addEventListener('click', function(){
-	tally2 = tally2 + 1
-	var result = document.getElementById('count2').innerHTML = tally2;
-}, false)
+var tally = 0;
+for(i = 0; i < cats.length; i++){
+	cat = cats[i];
+	tally = tally + 1
+	count.innerHTML = tally;
+	catpics.innerHTML = cat;
 
-var firstCatName = catname1.innerHTML = "Elmer "
-var secondCatName = catname2.innerHTML = "Vladimir "
+	
+	catList.addEventListener('click', (function(cat){
+		return function(){
+			return cat;
+		};
+	})(cat));
+		
+	
+};
+
+

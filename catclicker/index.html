@@ -1,27 +1,48 @@
 <DOCTYPE! html>
 <head>
 	<title>CatClicker!</title>
-	<link rel="stylesheet" href="catclick.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/catclick.css">
+
 </head>
 <body>
 	<div class="container">
-		<header>
-			<h1>Welcome to CatClicker!</h1>
-			<h2>Click a cat!</h2>
-		</header>
-			<div id="catpic1">
-				<p><span id="catname1"></span>has been clicked <span id="count1">0</span> times.
-				</p>
-				<div id="catclick1">
-					<img class="cats" src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Julchen_002_Ragdoll_8Wochen.jpg/576px-Julchen_002_Ragdoll_8Wochen.jpg">
-					</div>
+		<div class="row">
+			<div class="twelve columns">
+				<header>
+					<h1>Welcome to CatClicker!</h1>
+					<h3>Click a kitty for hours of fun!</h3>
+				</header>
 			</div>
-			<div id="catpic2">
-				<p><span id="catname2"></span>has been clicked <span id="count2">0</span> times.</p>
-				<div id="catclick2">
-					<img class="cats" src="http://fc03.deviantart.net/fs31/i/2008/206/a/f/Adopt_a_kitten__Save_a_life__by_kitsunekko.jpg">
+		</div>
+		<div class="row">
+			<div class="four columns">
+				<p>This cat has been clicked <span id="count">0</span> times.</p>
+				<div id="catList">
+					<ul>
+						<li id="chewy">Chewy</li>
+						<li id="elmer">Elmer</li>
+						<li id="jody">Jody</li>
+						<li id="layla">Layla</li>
+						<li id="lucifer">Lucifer</li>
+					</ul>
 				</div>
 			</div>
+			<div class="eight columns">
+				<div id="catpics">
+				</div>
+			</div>
+		</div>
 	</div>
-	<script src="catclick.js"></script>
+
+
+
+
+
+
+		
+		
+					
+				
+<script src="catclick.js"></script>
 </body>
