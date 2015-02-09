@@ -3,33 +3,30 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-	<body>
-		<div id="container">
-			<div class="row" id="row1">
-				<h1 id="javascript" onclick="changeBackground()">This is Javascript!<h1>
-					<button id="hi" class="button" onclick="toggleIt('hello'); changeColor('hello')"><span id="hiThere">Say "Hello, World!"</button> 
-					<button id="purple" class="button" onclick="changeBackground()">PURPLE/NOT PURPLE</button> 
-					<button id="yellow" class="button" onclick="toggleIt('yellowBox')">Yellow box?</button> 
-					
-				<div id="hello">Hello, World!</div>
-				<div id="yellowBox">I'm a Yellow Box!</div>
-			</div>
-			<div class="row" id="row2">
-				<h2>This is not JavaScript</h2>
-					<div class="colorBox" id="blackToWhite"></div>
-					<div class="colorBox" id="blueToOrange"></div>
-					<div class="colorBox" id="grayToTeal"></div>
-			</div>
-			<div class="row" id="row3">
-					<div id="floatingBox"></div>
-			</div>
+<body>
+<div id="container">
+	<div class="row" id="row1">
+		<h1 id="javascript" onclick="changeBackground()">This is Javascript!<h1>
+		<button id="hi" class="button" onclick="toggleIt('hello'); changeColor('hello')"><span id="hiThere">Say "Hello, World!"</button> 
 
+		<button id="purple" class="button" onclick="changeBackground()">PURPLE/NOT PURPLE</button> 
 
-
-
-
-
-			<script src="script.js"></script>
-		</div>
+		<button id="yellow" class="button" onclick="toggleIt('yellowBox')">Yellow box?</button> 
+						
+		<div id="hello">Hello, World!</div>
+		<div id="yellowBox">I'm a Yellow Box!</div>
+	</div>
+	<div class="row" id="row2">
+		<h2>This is not JavaScript</h2>
+			<div class="colorBox" id="blackToWhite"></div>
+			<div class="colorBox" id="blueToOrange"></div>
+			<div class="colorBox" id="grayToTeal"></div>
+	</div>
+	<div class="row" id="row3">
+		<div id="floatingBox"></div>
+	</div>	
+</div>
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	</body>
 </html>

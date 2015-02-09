@@ -37,7 +37,7 @@ var Monster = function(size, color, breed, weapon) {
 	};
 };
 
-var Dragon = new Monster("huge", "green", "dragon", "mouth"); 
+var Dragon = new Monster("tiny", "green", "dragon", "mouth"); 
 
 var Ogre = new Monster("medium", "brown", "ogre", "club");
 

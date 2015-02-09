@@ -1,6 +1,7 @@
+var javascript = document.getElementById("javascript");
+
 //    Toggles divs on and off  //
 function toggleIt(id){
-	var el = document.getElementById(id);
 	if (el.style.display== "none") {
 		el.style.display="block";
 	} else {
@@ -9,7 +10,7 @@ function toggleIt(id){
 };
 //Toggles background color //
 function changeBackground(){
-	var javascript = document.getElementById("javascript");
+	
 	if (document.body.style.backgroundColor=="white") {
 		document.body.style.backgroundColor="purple";
 		javascript.style.color="white";
