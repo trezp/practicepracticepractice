@@ -1,0 +1,16 @@
+{
+  "name": "listMyAPI",
+  "version": "1.0.0",
+  "description": "my awesome app",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log(\"Test command\")"
+  },
+  "author": "trezp",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.3",
+    "mongojs": "^0.18.2",
+    "restify": "^3.0.1"
+  }
+}

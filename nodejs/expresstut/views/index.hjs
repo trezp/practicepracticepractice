@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Welcome to {{ title }}</p>
+    <p>My name is {{ name }} and I'm {{ age }} years old. My occupation is {{ job }}! </p>
+	
+	<div class="animal">
+		<h2>This section is about a {{ animal }}</h2>
+		<ul>
+			<li>This animal has {{ legs }} legs.</li>
+			<li>This animal makes a {{ noise }} noise.</li>
+			<li>This animal is {{ asAPet }} to own as a pet.</li>
+		</ul>
+	</div>
+    
+
+  </body>
+</html>

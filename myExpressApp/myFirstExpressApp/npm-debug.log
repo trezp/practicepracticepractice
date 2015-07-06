@@ -1,0 +1,1024 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/treasureporth/Desktop/prac/myExpressApp/myFirstExpressApp',
+5 verbose install   [ 'body-parser',
+5 verbose install     'cookie-parser',
+5 verbose install     'debug',
+5 verbose install     'express',
+5 verbose install     'jade',
+5 verbose install     'morgan',
+5 verbose install     'serve-favicon' ] ]
+6 info preinstall myFirstExpressApp@0.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'cookie-parser@~1.3.3', null ]
+9 verbose cache add name=undefined spec="cookie-parser@~1.3.3" args=["cookie-parser@~1.3.3",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'cookie-parser@~1.3.3',
+10 verbose parsed url   path: 'cookie-parser@~1.3.3',
+10 verbose parsed url   href: 'cookie-parser@~1.3.3' }
+11 verbose cache add [ 'debug@~2.1.1', null ]
+12 verbose cache add name=undefined spec="debug@~2.1.1" args=["debug@~2.1.1",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'debug@~2.1.1',
+13 verbose parsed url   path: 'debug@~2.1.1',
+13 verbose parsed url   href: 'debug@~2.1.1' }
+14 verbose cache add [ 'express@~4.11.1', null ]
+15 verbose cache add name=undefined spec="express@~4.11.1" args=["express@~4.11.1",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'express@~4.11.1',
+16 verbose parsed url   path: 'express@~4.11.1',
+16 verbose parsed url   href: 'express@~4.11.1' }
+17 verbose cache add [ 'jade@~1.9.1', null ]
+18 verbose cache add name=undefined spec="jade@~1.9.1" args=["jade@~1.9.1",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'jade@~1.9.1',
+19 verbose parsed url   path: 'jade@~1.9.1',
+19 verbose parsed url   href: 'jade@~1.9.1' }
+20 verbose cache add name="cookie-parser" spec="~1.3.3" args=["cookie-parser","~1.3.3"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '~1.3.3',
+21 verbose parsed url   path: '~1.3.3',
+21 verbose parsed url   href: '~1.3.3' }
+22 verbose addNamed [ 'cookie-parser', '~1.3.3' ]
+23 verbose addNamed [ null, '>=1.3.3-0 <1.4.0-0' ]
+24 verbose cache add name="debug" spec="~2.1.1" args=["debug","~2.1.1"]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '~2.1.1',
+25 verbose parsed url   path: '~2.1.1',
+25 verbose parsed url   href: '~2.1.1' }
+26 verbose addNamed [ 'debug', '~2.1.1' ]
+27 verbose addNamed [ null, '>=2.1.1-0 <2.2.0-0' ]
+28 verbose cache add name="express" spec="~4.11.1" args=["express","~4.11.1"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '~4.11.1',
+29 verbose parsed url   path: '~4.11.1',
+29 verbose parsed url   href: '~4.11.1' }
+30 verbose addNamed [ 'express', '~4.11.1' ]
+31 verbose addNamed [ null, '>=4.11.1-0 <4.12.0-0' ]
+32 verbose cache add [ 'morgan@~1.5.1', null ]
+33 verbose cache add name=undefined spec="morgan@~1.5.1" args=["morgan@~1.5.1",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'morgan@~1.5.1',
+34 verbose parsed url   path: 'morgan@~1.5.1',
+34 verbose parsed url   href: 'morgan@~1.5.1' }
+35 verbose cache add [ 'serve-favicon@~2.2.0', null ]
+36 verbose cache add name=undefined spec="serve-favicon@~2.2.0" args=["serve-favicon@~2.2.0",null]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: 'serve-favicon@~2.2.0',
+37 verbose parsed url   path: 'serve-favicon@~2.2.0',
+37 verbose parsed url   href: 'serve-favicon@~2.2.0' }
+38 verbose cache add [ 'body-parser@~1.10.2', null ]
+39 verbose cache add name=undefined spec="body-parser@~1.10.2" args=["body-parser@~1.10.2",null]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: 'body-parser@~1.10.2',
+40 verbose parsed url   path: 'body-parser@~1.10.2',
+40 verbose parsed url   href: 'body-parser@~1.10.2' }
+41 verbose cache add name="jade" spec="~1.9.1" args=["jade","~1.9.1"]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: '~1.9.1',
+42 verbose parsed url   path: '~1.9.1',
+42 verbose parsed url   href: '~1.9.1' }
+43 verbose addNamed [ 'jade', '~1.9.1' ]
+44 verbose addNamed [ null, '>=1.9.1-0 <1.10.0-0' ]
+45 silly lockFile bf5babd8-cookie-parser-1-3-3 cookie-parser@~1.3.3
+46 verbose lock cookie-parser@~1.3.3 /Users/treasureporth/.npm/bf5babd8-cookie-parser-1-3-3.lock
+47 silly lockFile 09d11068-debug-2-1-1 debug@~2.1.1
+48 verbose lock debug@~2.1.1 /Users/treasureporth/.npm/09d11068-debug-2-1-1.lock
+49 silly lockFile 494d735c-express-4-11-1 express@~4.11.1
+50 verbose lock express@~4.11.1 /Users/treasureporth/.npm/494d735c-express-4-11-1.lock
+51 silly lockFile 73eba92c-jade-1-9-1 jade@~1.9.1
+52 verbose lock jade@~1.9.1 /Users/treasureporth/.npm/73eba92c-jade-1-9-1.lock
+53 verbose cache add name="morgan" spec="~1.5.1" args=["morgan","~1.5.1"]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: '~1.5.1',
+54 verbose parsed url   path: '~1.5.1',
+54 verbose parsed url   href: '~1.5.1' }
+55 verbose addNamed [ 'morgan', '~1.5.1' ]
+56 verbose addNamed [ null, '>=1.5.1-0 <1.6.0-0' ]
+57 silly lockFile 66ba047d-morgan-1-5-1 morgan@~1.5.1
+58 verbose lock morgan@~1.5.1 /Users/treasureporth/.npm/66ba047d-morgan-1-5-1.lock
+59 verbose cache add name="serve-favicon" spec="~2.2.0" args=["serve-favicon","~2.2.0"]
+60 verbose parsed url { protocol: null,
+60 verbose parsed url   slashes: null,
+60 verbose parsed url   auth: null,
+60 verbose parsed url   host: null,
+60 verbose parsed url   port: null,
+60 verbose parsed url   hostname: null,
+60 verbose parsed url   hash: null,
+60 verbose parsed url   search: null,
+60 verbose parsed url   query: null,
+60 verbose parsed url   pathname: '~2.2.0',
+60 verbose parsed url   path: '~2.2.0',
+60 verbose parsed url   href: '~2.2.0' }
+61 verbose addNamed [ 'serve-favicon', '~2.2.0' ]
+62 verbose addNamed [ null, '>=2.2.0-0 <2.3.0-0' ]
+63 silly lockFile 9df5bad7-serve-favicon-2-2-0 serve-favicon@~2.2.0
+64 verbose lock serve-favicon@~2.2.0 /Users/treasureporth/.npm/9df5bad7-serve-favicon-2-2-0.lock
+65 verbose cache add name="body-parser" spec="~1.10.2" args=["body-parser","~1.10.2"]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: '~1.10.2',
+66 verbose parsed url   path: '~1.10.2',
+66 verbose parsed url   href: '~1.10.2' }
+67 verbose addNamed [ 'body-parser', '~1.10.2' ]
+68 verbose addNamed [ null, '>=1.10.2-0 <1.11.0-0' ]
+69 silly lockFile 72eb9479-body-parser-1-10-2 body-parser@~1.10.2
+70 verbose lock body-parser@~1.10.2 /Users/treasureporth/.npm/72eb9479-body-parser-1-10-2.lock
+71 silly addNameRange { name: 'cookie-parser',
+71 silly addNameRange   range: '>=1.3.3-0 <1.4.0-0',
+71 silly addNameRange   hasData: false }
+72 silly addNameRange { name: 'morgan', range: '>=1.5.1-0 <1.6.0-0', hasData: false }
+73 silly addNameRange { name: 'serve-favicon',
+73 silly addNameRange   range: '>=2.2.0-0 <2.3.0-0',
+73 silly addNameRange   hasData: false }
+74 silly addNameRange { name: 'body-parser',
+74 silly addNameRange   range: '>=1.10.2-0 <1.11.0-0',
+74 silly addNameRange   hasData: false }
+75 silly addNameRange { name: 'jade', range: '>=1.9.1-0 <1.10.0-0', hasData: false }
+76 silly addNameRange { name: 'express',
+76 silly addNameRange   range: '>=4.11.1-0 <4.12.0-0',
+76 silly addNameRange   hasData: false }
+77 silly addNameRange { name: 'debug', range: '>=2.1.1-0 <2.2.0-0', hasData: false }
+78 verbose request where is /jade
+79 verbose request registry https://registry.npmjs.org/
+80 verbose request id edfdc0d12ce3ff6a
+81 verbose url raw /jade
+82 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+83 verbose url resolved https://registry.npmjs.org/jade
+84 verbose request where is https://registry.npmjs.org/jade
+85 info trying registry request attempt 1 at 12:49:20
+86 http GET https://registry.npmjs.org/jade
+87 verbose request where is /cookie-parser
+88 verbose request registry https://registry.npmjs.org/
+89 verbose url raw /cookie-parser
+90 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-parser' ]
+91 verbose url resolved https://registry.npmjs.org/cookie-parser
+92 verbose request where is https://registry.npmjs.org/cookie-parser
+93 info trying registry request attempt 1 at 12:49:20
+94 verbose etag "8KR57KYQWJ98W0KIFESGXKOOO"
+95 http GET https://registry.npmjs.org/cookie-parser
+96 verbose request where is /morgan
+97 verbose request registry https://registry.npmjs.org/
+98 verbose url raw /morgan
+99 verbose url resolving [ 'https://registry.npmjs.org/', './morgan' ]
+100 verbose url resolved https://registry.npmjs.org/morgan
+101 verbose request where is https://registry.npmjs.org/morgan
+102 info trying registry request attempt 1 at 12:49:20
+103 verbose etag "1K9YEBUETVSA9LO1JSULWY06A"
+104 http GET https://registry.npmjs.org/morgan
+105 verbose request where is /serve-favicon
+106 verbose request registry https://registry.npmjs.org/
+107 verbose url raw /serve-favicon
+108 verbose url resolving [ 'https://registry.npmjs.org/', './serve-favicon' ]
+109 verbose url resolved https://registry.npmjs.org/serve-favicon
+110 verbose request where is https://registry.npmjs.org/serve-favicon
+111 info trying registry request attempt 1 at 12:49:20
+112 verbose etag "57J1WZEFR0J53TPZKI3RKHJ74"
+113 http GET https://registry.npmjs.org/serve-favicon
+114 verbose request where is /debug
+115 verbose request registry https://registry.npmjs.org/
+116 verbose url raw /debug
+117 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+118 verbose url resolved https://registry.npmjs.org/debug
+119 verbose request where is https://registry.npmjs.org/debug
+120 info trying registry request attempt 1 at 12:49:20
+121 verbose etag "75XIY85VWO3NK7RW67ZWD1HGP"
+122 http GET https://registry.npmjs.org/debug
+123 verbose request where is /body-parser
+124 verbose request registry https://registry.npmjs.org/
+125 verbose url raw /body-parser
+126 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+127 verbose url resolved https://registry.npmjs.org/body-parser
+128 verbose request where is https://registry.npmjs.org/body-parser
+129 info trying registry request attempt 1 at 12:49:20
+130 verbose etag "4U91Q41SKBMFLBLVZNJ3AS7F8"
+131 http GET https://registry.npmjs.org/body-parser
+132 verbose request where is /express
+133 verbose request registry https://registry.npmjs.org/
+134 verbose url raw /express
+135 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+136 verbose url resolved https://registry.npmjs.org/express
+137 verbose request where is https://registry.npmjs.org/express
+138 info trying registry request attempt 1 at 12:49:21
+139 verbose etag "4VF4DE3BYB8U3OS1R8AHWXJK2"
+140 http GET https://registry.npmjs.org/express
+141 http 200 https://registry.npmjs.org/serve-favicon
+142 silly registry.get cb [ 200,
+142 silly registry.get   { date: 'Sun, 05 Apr 2015 19:49:18 GMT',
+142 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+142 silly registry.get     etag: '"E5BSLOF3LLVN5Z1U3UXYTQLI9"',
+142 silly registry.get     'content-type': 'application/json',
+142 silly registry.get     'cache-control': 'max-age=60',
+142 silly registry.get     'content-length': '20049',
+142 silly registry.get     'accept-ranges': 'bytes',
+142 silly registry.get     via: '1.1 varnish',
+142 silly registry.get     age: '58',
+142 silly registry.get     'x-served-by': 'cache-lax1434-LAX',
+142 silly registry.get     'x-cache': 'HIT',
+142 silly registry.get     'x-cache-hits': '1',
+142 silly registry.get     'x-timer': 'S1428263358.702726,VS0,VE0',
+142 silly registry.get     vary: 'Accept',
+142 silly registry.get     'keep-alive': 'timeout=10, max=50',
+142 silly registry.get     connection: 'Keep-Alive' } ]
+143 http 200 https://registry.npmjs.org/cookie-parser
+144 silly registry.get cb [ 200,
+144 silly registry.get   { date: 'Sun, 05 Apr 2015 19:49:18 GMT',
+144 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+144 silly registry.get     etag: '"7JJDF8DNBUCN3NW39YQI3E17Z"',
+144 silly registry.get     'content-type': 'application/json',
+144 silly registry.get     'cache-control': 'max-age=60',
+144 silly registry.get     'content-length': '15520',
+144 silly registry.get     'accept-ranges': 'bytes',
+144 silly registry.get     via: '1.1 varnish',
+144 silly registry.get     age: '58',
+144 silly registry.get     'x-served-by': 'cache-lax1424-LAX',
+144 silly registry.get     'x-cache': 'HIT',
+144 silly registry.get     'x-cache-hits': '1',
+144 silly registry.get     'x-timer': 'S1428263358.718001,VS0,VE0',
+144 silly registry.get     vary: 'Accept',
+144 silly registry.get     'keep-alive': 'timeout=10, max=50',
+144 silly registry.get     connection: 'Keep-Alive' } ]
+145 http 200 https://registry.npmjs.org/debug
+146 silly registry.get cb [ 200,
+146 silly registry.get   { date: 'Sun, 05 Apr 2015 19:49:18 GMT',
+146 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+146 silly registry.get     etag: '"EI1810KCJ5I1NL9I2SQBWYMU9"',
+146 silly registry.get     'content-type': 'application/json',
+146 silly registry.get     'cache-control': 'max-age=60',
+146 silly registry.get     'content-length': '32797',
+146 silly registry.get     'accept-ranges': 'bytes',
+146 silly registry.get     via: '1.1 varnish',
+146 silly registry.get     age: '0',
+146 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+146 silly registry.get     'x-cache': 'HIT',
+146 silly registry.get     'x-cache-hits': '1',
+146 silly registry.get     'x-timer': 'S1428263358.702815,VS0,VE43',
+146 silly registry.get     vary: 'Accept',
+146 silly registry.get     'keep-alive': 'timeout=10, max=50',
+146 silly registry.get     connection: 'Keep-Alive' } ]
+147 http 200 https://registry.npmjs.org/morgan
+148 silly registry.get cb [ 200,
+148 silly registry.get   { date: 'Sun, 05 Apr 2015 19:49:18 GMT',
+148 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+148 silly registry.get     etag: '"325GFNQEFFZCSU6C6XQB710I"',
+148 silly registry.get     'content-type': 'application/json',
+148 silly registry.get     'cache-control': 'max-age=60',
+148 silly registry.get     'content-length': '34538',
+148 silly registry.get     'accept-ranges': 'bytes',
+148 silly registry.get     via: '1.1 varnish',
+148 silly registry.get     age: '0',
+148 silly registry.get     'x-served-by': 'cache-lax1433-LAX',
+148 silly registry.get     'x-cache': 'HIT',
+148 silly registry.get     'x-cache-hits': '1',
+148 silly registry.get     'x-timer': 'S1428263358.706451,VS0,VE42',
+148 silly registry.get     vary: 'Accept',
+148 silly registry.get     'keep-alive': 'timeout=10, max=50',
+148 silly registry.get     connection: 'Keep-Alive' } ]
+149 silly addNameRange number 2 { name: 'serve-favicon',
+149 silly addNameRange   range: '>=2.2.0-0 <2.3.0-0',
+149 silly addNameRange   hasData: true }
+150 silly addNameRange versions [ 'serve-favicon',
+150 silly addNameRange   [ '2.0.0',
+150 silly addNameRange     '2.0.1',
+150 silly addNameRange     '2.1.0',
+150 silly addNameRange     '2.1.1',
+150 silly addNameRange     '2.1.2',
+150 silly addNameRange     '2.1.3',
+150 silly addNameRange     '2.1.4',
+150 silly addNameRange     '2.1.5',
+150 silly addNameRange     '2.1.6',
+150 silly addNameRange     '2.1.7',
+150 silly addNameRange     '2.2.0' ] ]
+151 verbose addNamed [ 'serve-favicon', '2.2.0' ]
+152 verbose addNamed [ '2.2.0', '2.2.0' ]
+153 silly lockFile cef81d7c-serve-favicon-2-2-0 serve-favicon@2.2.0
+154 verbose lock serve-favicon@2.2.0 /Users/treasureporth/.npm/cef81d7c-serve-favicon-2-2-0.lock
+155 silly addNameRange number 2 { name: 'cookie-parser',
+155 silly addNameRange   range: '>=1.3.3-0 <1.4.0-0',
+155 silly addNameRange   hasData: true }
+156 silly addNameRange versions [ 'cookie-parser',
+156 silly addNameRange   [ '1.0.0',
+156 silly addNameRange     '1.0.1',
+156 silly addNameRange     '1.1.0',
+156 silly addNameRange     '1.2.0',
+156 silly addNameRange     '1.3.0',
+156 silly addNameRange     '1.3.1',
+156 silly addNameRange     '1.3.2',
+156 silly addNameRange     '1.3.3',
+156 silly addNameRange     '1.3.4' ] ]
+157 verbose addNamed [ 'cookie-parser', '1.3.4' ]
+158 verbose addNamed [ '1.3.4', '1.3.4' ]
+159 silly lockFile db8a9715-cookie-parser-1-3-4 cookie-parser@1.3.4
+160 verbose lock cookie-parser@1.3.4 /Users/treasureporth/.npm/db8a9715-cookie-parser-1-3-4.lock
+161 http 200 https://registry.npmjs.org/body-parser
+162 silly registry.get cb [ 200,
+162 silly registry.get   { date: 'Sun, 05 Apr 2015 19:49:18 GMT',
+162 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+162 silly registry.get     etag: '"3RG74FO3ZHW2SLUNCB7R8QYW6"',
+162 silly registry.get     'content-type': 'application/json',
+162 silly registry.get     'cache-control': 'max-age=60',
+162 silly registry.get     'content-length': '90740',
+162 silly registry.get     'accept-ranges': 'bytes',
+162 silly registry.get     via: '1.1 varnish',
+162 silly registry.get     age: '58',
+162 silly registry.get     'x-served-by': 'cache-lax1434-LAX',
+162 silly registry.get     'x-cache': 'HIT',
+162 silly registry.get     'x-cache-hits': '1',
+162 silly registry.get     'x-timer': 'S1428263358.804520,VS0,VE0',
+162 silly registry.get     vary: 'Accept',
+162 silly registry.get     'keep-alive': 'timeout=10, max=49',
+162 silly registry.get     connection: 'Keep-Alive' } ]
+163 silly addNameRange number 2 { name: 'debug', range: '>=2.1.1-0 <2.2.0-0', hasData: true }
+164 silly addNameRange versions [ 'debug',
+164 silly addNameRange   [ '0.0.1',
+164 silly addNameRange     '0.1.0',
+164 silly addNameRange     '0.2.0',
+164 silly addNameRange     '0.3.0',
+164 silly addNameRange     '0.4.0',
+164 silly addNameRange     '0.4.1',
+164 silly addNameRange     '0.5.0',
+164 silly addNameRange     '0.6.0',
+164 silly addNameRange     '0.7.0',
+164 silly addNameRange     '0.7.1',
+164 silly addNameRange     '0.7.2',
+164 silly addNameRange     '0.7.3',
+164 silly addNameRange     '0.7.4',
+164 silly addNameRange     '0.8.0',
+164 silly addNameRange     '0.8.1',
+164 silly addNameRange     '1.0.0',
+164 silly addNameRange     '1.0.1',
+164 silly addNameRange     '1.0.2',
+164 silly addNameRange     '1.0.3',
+164 silly addNameRange     '1.0.4',
+164 silly addNameRange     '2.0.0',
+164 silly addNameRange     '2.1.0',
+164 silly addNameRange     '2.1.1',
+164 silly addNameRange     '2.1.2',
+164 silly addNameRange     '2.1.3' ] ]
+165 verbose addNamed [ 'debug', '2.1.3' ]
+166 verbose addNamed [ '2.1.3', '2.1.3' ]
+167 silly lockFile aef7a5b5-debug-2-1-3 debug@2.1.3
+168 verbose lock debug@2.1.3 /Users/treasureporth/.npm/aef7a5b5-debug-2-1-3.lock
+169 silly addNameRange number 2 { name: 'morgan', range: '>=1.5.1-0 <1.6.0-0', hasData: true }
+170 silly addNameRange versions [ 'morgan',
+170 silly addNameRange   [ '1.0.0',
+170 silly addNameRange     '1.0.1',
+170 silly addNameRange     '1.1.0',
+170 silly addNameRange     '1.1.1',
+170 silly addNameRange     '1.2.0',
+170 silly addNameRange     '1.2.1',
+170 silly addNameRange     '1.2.2',
+170 silly addNameRange     '1.2.3',
+170 silly addNameRange     '1.3.0',
+170 silly addNameRange     '1.3.1',
+170 silly addNameRange     '1.3.2',
+170 silly addNameRange     '1.4.0',
+170 silly addNameRange     '1.4.1',
+170 silly addNameRange     '1.5.0',
+170 silly addNameRange     '1.5.1',
+170 silly addNameRange     '1.5.2' ] ]
+171 verbose addNamed [ 'morgan', '1.5.2' ]
+172 verbose addNamed [ '1.5.2', '1.5.2' ]
+173 silly lockFile 04d2cfbf-morgan-1-5-2 morgan@1.5.2
+174 verbose lock morgan@1.5.2 /Users/treasureporth/.npm/04d2cfbf-morgan-1-5-2.lock
+175 silly lockFile 870fad9a--npmjs-org-debug-debug-2-1-3-tgz https://registry.npmjs.org/debug/-/debug-2.1.3.tgz
+176 verbose lock https://registry.npmjs.org/debug/-/debug-2.1.3.tgz /Users/treasureporth/.npm/870fad9a--npmjs-org-debug-debug-2-1-3-tgz.lock
+177 silly lockFile 6d25fd37-pmjs-org-morgan-morgan-1-5-2-tgz https://registry.npmjs.org/morgan/-/morgan-1.5.2.tgz
+178 verbose lock https://registry.npmjs.org/morgan/-/morgan-1.5.2.tgz /Users/treasureporth/.npm/6d25fd37-pmjs-org-morgan-morgan-1-5-2-tgz.lock
+179 verbose addRemoteTarball [ 'https://registry.npmjs.org/morgan/-/morgan-1.5.2.tgz',
+179 verbose addRemoteTarball   '34c1a0e7c2d5ad3ed78f0ef3257b8ac7c35d7cff' ]
+180 verbose addRemoteTarball [ 'https://registry.npmjs.org/debug/-/debug-2.1.3.tgz',
+180 verbose addRemoteTarball   'ce8ab1b5ee8fbee2bfa3b633cab93d366b63418e' ]
+181 silly lockFile cef81d7c-serve-favicon-2-2-0 serve-favicon@2.2.0
+182 silly lockFile cef81d7c-serve-favicon-2-2-0 serve-favicon@2.2.0
+183 silly lockFile 9df5bad7-serve-favicon-2-2-0 serve-favicon@~2.2.0
+184 silly lockFile 9df5bad7-serve-favicon-2-2-0 serve-favicon@~2.2.0
+185 silly lockFile db8a9715-cookie-parser-1-3-4 cookie-parser@1.3.4
+186 silly lockFile db8a9715-cookie-parser-1-3-4 cookie-parser@1.3.4
+187 silly lockFile bf5babd8-cookie-parser-1-3-3 cookie-parser@~1.3.3
+188 silly lockFile bf5babd8-cookie-parser-1-3-3 cookie-parser@~1.3.3
+189 silly addNameRange number 2 { name: 'body-parser',
+189 silly addNameRange   range: '>=1.10.2-0 <1.11.0-0',
+189 silly addNameRange   hasData: true }
+190 silly addNameRange versions [ 'body-parser',
+190 silly addNameRange   [ '1.0.0',
+190 silly addNameRange     '1.0.1',
+190 silly addNameRange     '1.0.2',
+190 silly addNameRange     '1.1.0',
+190 silly addNameRange     '1.1.1',
+190 silly addNameRange     '1.1.2',
+190 silly addNameRange     '1.2.0',
+190 silly addNameRange     '1.2.1',
+190 silly addNameRange     '1.2.2',
+190 silly addNameRange     '1.3.0',
+190 silly addNameRange     '1.3.1',
+190 silly addNameRange     '1.4.0',
+190 silly addNameRange     '1.4.1',
+190 silly addNameRange     '1.4.2',
+190 silly addNameRange     '1.4.3',
+190 silly addNameRange     '1.5.0',
+190 silly addNameRange     '1.5.1',
+190 silly addNameRange     '1.5.2',
+190 silly addNameRange     '1.6.0',
+190 silly addNameRange     '1.6.1',
+190 silly addNameRange     '1.6.2',
+190 silly addNameRange     '1.6.3',
+190 silly addNameRange     '1.6.4',
+190 silly addNameRange     '1.6.5',
+190 silly addNameRange     '1.6.6',
+190 silly addNameRange     '1.6.7',
+190 silly addNameRange     '1.7.0',
+190 silly addNameRange     '1.8.0',
+190 silly addNameRange     '1.8.1',
+190 silly addNameRange     '1.8.2',
+190 silly addNameRange     '1.8.3',
+190 silly addNameRange     '1.8.4',
+190 silly addNameRange     '1.9.0',
+190 silly addNameRange     '1.9.1',
+190 silly addNameRange     '1.9.2',
+190 silly addNameRange     '1.9.3',
+190 silly addNameRange     '1.10.0',
+190 silly addNameRange     '1.10.1',
+190 silly addNameRange     '1.10.2',
+190 silly addNameRange     '1.11.0',
+190 silly addNameRange     '1.12.0',
+190 silly addNameRange     '1.12.1',
+190 silly addNameRange     '1.12.2' ] ]
+191 verbose addNamed [ 'body-parser', '1.10.2' ]
+192 verbose addNamed [ '1.10.2', '1.10.2' ]
+193 silly lockFile 6255e82a-body-parser-1-10-2 body-parser@1.10.2
+194 verbose lock body-parser@1.10.2 /Users/treasureporth/.npm/6255e82a-body-parser-1-10-2.lock
+195 info retry fetch attempt 1 at 12:49:21
+196 verbose fetch to= /var/folders/wy/3xwvwl0n0sz0z39dqpp5h7f80000gn/T/npm-6595-LjzQKPBY/registry.npmjs.org/morgan/-/morgan-1.5.2.tgz
+197 info retry fetch attempt 1 at 12:49:21
+198 verbose fetch to= /var/folders/wy/3xwvwl0n0sz0z39dqpp5h7f80000gn/T/npm-6595-LjzQKPBY/registry.npmjs.org/debug/-/debug-2.1.3.tgz
+199 http GET https://registry.npmjs.org/morgan/-/morgan-1.5.2.tgz
+200 http GET https://registry.npmjs.org/debug/-/debug-2.1.3.tgz
+201 silly lockFile 6255e82a-body-parser-1-10-2 body-parser@1.10.2
+202 silly lockFile 6255e82a-body-parser-1-10-2 body-parser@1.10.2
+203 silly lockFile 72eb9479-body-parser-1-10-2 body-parser@~1.10.2
+204 silly lockFile 72eb9479-body-parser-1-10-2 body-parser@~1.10.2
+205 http 200 https://registry.npmjs.org/jade
+206 silly registry.get cb [ 200,
+206 silly registry.get   { date: 'Sun, 05 Apr 2015 19:49:19 GMT',
+206 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+206 silly registry.get     etag: '"BNKYWQT2PCJWWGXFTU280OJMF"',
+206 silly registry.get     'content-type': 'application/json',
+206 silly registry.get     'cache-control': 'max-age=60',
+206 silly registry.get     'content-length': '141414',
+206 silly registry.get     'accept-ranges': 'bytes',
+206 silly registry.get     via: '1.1 varnish',
+206 silly registry.get     age: '0',
+206 silly registry.get     'x-served-by': 'cache-lax1433-LAX',
+206 silly registry.get     'x-cache': 'HIT',
+206 silly registry.get     'x-cache-hits': '1',
+206 silly registry.get     'x-timer': 'S1428263358.712213,VS0,VE312',
+206 silly registry.get     vary: 'Accept',
+206 silly registry.get     'keep-alive': 'timeout=10, max=50',
+206 silly registry.get     connection: 'Keep-Alive' } ]
+207 silly addNameRange number 2 { name: 'jade', range: '>=1.9.1-0 <1.10.0-0', hasData: true }
+208 silly addNameRange versions [ 'jade',
+208 silly addNameRange   [ '0.0.1',
+208 silly addNameRange     '0.0.2',
+208 silly addNameRange     '0.1.0',
+208 silly addNameRange     '0.2.0',
+208 silly addNameRange     '0.2.1',
+208 silly addNameRange     '0.2.2',
+208 silly addNameRange     '0.2.3',
+208 silly addNameRange     '0.2.4',
+208 silly addNameRange     '0.3.0',
+208 silly addNameRange     '0.4.0',
+208 silly addNameRange     '0.4.1',
+208 silly addNameRange     '0.5.0',
+208 silly addNameRange     '0.5.1',
+208 silly addNameRange     '0.5.2',
+208 silly addNameRange     '0.5.3',
+208 silly addNameRange     '0.5.4',
+208 silly addNameRange     '0.5.5',
+208 silly addNameRange     '0.5.6',
+208 silly addNameRange     '0.5.7',
+208 silly addNameRange     '0.6.0',
+208 silly addNameRange     '0.6.1',
+208 silly addNameRange     '0.6.3',
+208 silly addNameRange     '0.7.0',
+208 silly addNameRange     '0.7.1',
+208 silly addNameRange     '0.8.0',
+208 silly addNameRange     '0.8.1',
+208 silly addNameRange     '0.8.2',
+208 silly addNameRange     '0.8.3',
+208 silly addNameRange     '0.8.4',
+208 silly addNameRange     '0.8.5',
+208 silly addNameRange     '0.8.6',
+208 silly addNameRange     '0.8.7',
+208 silly addNameRange     '0.8.8',
+208 silly addNameRange     '0.8.9',
+208 silly addNameRange     '0.9.0',
+208 silly addNameRange     '0.9.1',
+208 silly addNameRange     '0.9.2',
+208 silly addNameRange     '0.9.3',
+208 silly addNameRange     '0.10.0',
+208 silly addNameRange     '0.10.1',
+208 silly addNameRange     '0.10.2',
+208 silly addNameRange     '0.10.3',
+208 silly addNameRange     '0.10.4',
+208 silly addNameRange     '0.10.5',
+208 silly addNameRange     '0.10.6',
+208 silly addNameRange     '0.10.7',
+208 silly addNameRange     '0.11.0',
+208 silly addNameRange     '0.11.1',
+208 silly addNameRange     '0.12.0',
+208 silly addNameRange     '0.12.1',
+208 silly addNameRange     '0.12.2',
+208 silly addNameRange     '0.12.3',
+208 silly addNameRange     '0.12.4',
+208 silly addNameRange     '0.13.0',
+208 silly addNameRange     '0.14.0',
+208 silly addNameRange     '0.14.1',
+208 silly addNameRange     '0.14.2',
+208 silly addNameRange     '0.15.0',
+208 silly addNameRange     '0.15.1',
+208 silly addNameRange     '0.15.2',
+208 silly addNameRange     '0.15.3',
+208 silly addNameRange     '0.15.4',
+208 silly addNameRange     '0.16.0',
+208 silly addNameRange     '0.16.1',
+208 silly addNameRange     '0.16.2',
+208 silly addNameRange     '0.16.3',
+208 silly addNameRange     '0.16.4',
+208 silly addNameRange     '0.17.0',
+208 silly addNameRange     '0.18.0',
+208 silly addNameRange     '0.19.0',
+208 silly addNameRange     '0.20.0',
+208 silly addNameRange     '0.20.1',
+208 silly addNameRange     '0.20.2',
+208 silly addNameRange     '0.20.3',
+208 silly addNameRange     '0.21.0',
+208 silly addNameRange     '0.22.0',
+208 silly addNameRange     '0.22.1',
+208 silly addNameRange     '0.23.0',
+208 silly addNameRange     '0.24.0',
+208 silly addNameRange     '0.25.0',
+208 silly addNameRange     '0.26.0',
+208 silly addNameRange     '0.26.1',
+208 silly addNameRange     '0.26.2',
+208 silly addNameRange     '0.26.3',
+208 silly addNameRange     '0.27.0',
+208 silly addNameRange     '0.27.1',
+208 silly addNameRange     '0.27.2',
+208 silly addNameRange     '0.27.3',
+208 silly addNameRange     '0.27.4',
+208 silly addNameRange     '0.27.5',
+208 silly addNameRange     '0.27.6',
+208 silly addNameRange     '0.27.7',
+208 silly addNameRange     '0.28.0',
+208 silly addNameRange     '0.28.1',
+208 silly addNameRange     '0.28.2',
+208 silly addNameRange     '0.29.0',
+208 silly addNameRange     '0.30.0',
+208 silly addNameRange     '0.31.0',
+208 silly addNameRange     '0.31.1',
+208 silly addNameRange     '0.31.2',
+208 silly addNameRange     '0.32.0',
+208 silly addNameRange     '0.33.0',
+208 silly addNameRange     '0.34.0',
+208 silly addNameRange     '0.34.1',
+208 silly addNameRange     '0.35.0',
+208 silly addNameRange     '1.0.0',
+208 silly addNameRange     '1.0.1',
+208 silly addNameRange     '1.0.2',
+208 silly addNameRange     '1.1.0',
+208 silly addNameRange     '1.1.1',
+208 silly addNameRange     '1.1.2',
+208 silly addNameRange     '1.1.3',
+208 silly addNameRange     '1.1.4',
+208 silly addNameRange     '1.1.5',
+208 silly addNameRange     '1.2.0',
+208 silly addNameRange     '1.3.0',
+208 silly addNameRange     '1.3.1',
+208 silly addNameRange     '1.4.0',
+208 silly addNameRange     '1.4.1',
+208 silly addNameRange     '1.4.2',
+208 silly addNameRange     '1.5.0',
+208 silly addNameRange     '1.6.0',
+208 silly addNameRange     '1.7.0',
+208 silly addNameRange     '1.8.0',
+208 silly addNameRange     '1.8.1',
+208 silly addNameRange     '1.8.2',
+208 silly addNameRange     '1.9.0',
+208 silly addNameRange     '1.9.1',
+208 silly addNameRange     '1.9.2' ] ]
+209 verbose addNamed [ 'jade', '1.9.2' ]
+210 verbose addNamed [ '1.9.2', '1.9.2' ]
+211 silly lockFile 20e0e06b-jade-1-9-2 jade@1.9.2
+212 verbose lock jade@1.9.2 /Users/treasureporth/.npm/20e0e06b-jade-1-9-2.lock
+213 silly lockFile 481cf773-ry-npmjs-org-jade-jade-1-9-2-tgz https://registry.npmjs.org/jade/-/jade-1.9.2.tgz
+214 verbose lock https://registry.npmjs.org/jade/-/jade-1.9.2.tgz /Users/treasureporth/.npm/481cf773-ry-npmjs-org-jade-jade-1-9-2-tgz.lock
+215 verbose addRemoteTarball [ 'https://registry.npmjs.org/jade/-/jade-1.9.2.tgz',
+215 verbose addRemoteTarball   '0b89f9c60d4ead2738e826ba7b2ccac9a5702abe' ]
+216 info retry fetch attempt 1 at 12:49:21
+217 verbose fetch to= /var/folders/wy/3xwvwl0n0sz0z39dqpp5h7f80000gn/T/npm-6595-LjzQKPBY/registry.npmjs.org/jade/-/jade-1.9.2.tgz
+218 http GET https://registry.npmjs.org/jade/-/jade-1.9.2.tgz
+219 http 200 https://registry.npmjs.org/debug/-/debug-2.1.3.tgz
+220 http 200 https://registry.npmjs.org/morgan/-/morgan-1.5.2.tgz
+221 silly lockFile 870fad9a--npmjs-org-debug-debug-2-1-3-tgz https://registry.npmjs.org/debug/-/debug-2.1.3.tgz
+222 silly lockFile 870fad9a--npmjs-org-debug-debug-2-1-3-tgz https://registry.npmjs.org/debug/-/debug-2.1.3.tgz
+223 silly lockFile aef7a5b5-debug-2-1-3 debug@2.1.3
+224 silly lockFile aef7a5b5-debug-2-1-3 debug@2.1.3
+225 silly lockFile 09d11068-debug-2-1-1 debug@~2.1.1
+226 silly lockFile 09d11068-debug-2-1-1 debug@~2.1.1
+227 silly lockFile 6d25fd37-pmjs-org-morgan-morgan-1-5-2-tgz https://registry.npmjs.org/morgan/-/morgan-1.5.2.tgz
+228 silly lockFile 6d25fd37-pmjs-org-morgan-morgan-1-5-2-tgz https://registry.npmjs.org/morgan/-/morgan-1.5.2.tgz
+229 silly lockFile 04d2cfbf-morgan-1-5-2 morgan@1.5.2
+230 silly lockFile 04d2cfbf-morgan-1-5-2 morgan@1.5.2
+231 silly lockFile 66ba047d-morgan-1-5-1 morgan@~1.5.1
+232 silly lockFile 66ba047d-morgan-1-5-1 morgan@~1.5.1
+233 http 200 https://registry.npmjs.org/jade/-/jade-1.9.2.tgz
+234 http 200 https://registry.npmjs.org/express
+235 silly registry.get cb [ 200,
+235 silly registry.get   { date: 'Sun, 05 Apr 2015 19:49:19 GMT',
+235 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+235 silly registry.get     etag: '"5IGW12C4GEX5OIOWX15VWTHV5"',
+235 silly registry.get     'content-type': 'application/json',
+235 silly registry.get     'cache-control': 'max-age=60',
+235 silly registry.get     'content-length': '491959',
+235 silly registry.get     'accept-ranges': 'bytes',
+235 silly registry.get     via: '1.1 varnish',
+235 silly registry.get     age: '0',
+235 silly registry.get     'x-served-by': 'cache-lax1424-LAX',
+235 silly registry.get     'x-cache': 'HIT',
+235 silly registry.get     'x-cache-hits': '1',
+235 silly registry.get     'x-timer': 'S1428263358.817047,VS0,VE344',
+235 silly registry.get     vary: 'Accept',
+235 silly registry.get     'keep-alive': 'timeout=10, max=49',
+235 silly registry.get     connection: 'Keep-Alive' } ]
+236 silly lockFile 481cf773-ry-npmjs-org-jade-jade-1-9-2-tgz https://registry.npmjs.org/jade/-/jade-1.9.2.tgz
+237 silly lockFile 481cf773-ry-npmjs-org-jade-jade-1-9-2-tgz https://registry.npmjs.org/jade/-/jade-1.9.2.tgz
+238 silly lockFile 20e0e06b-jade-1-9-2 jade@1.9.2
+239 silly lockFile 20e0e06b-jade-1-9-2 jade@1.9.2
+240 silly lockFile 73eba92c-jade-1-9-1 jade@~1.9.1
+241 silly lockFile 73eba92c-jade-1-9-1 jade@~1.9.1
+242 silly addNameRange number 2 { name: 'express', range: '>=4.11.1-0 <4.12.0-0', hasData: true }
+243 silly addNameRange versions [ 'express',
+243 silly addNameRange   [ '0.14.0',
+243 silly addNameRange     '0.14.1',
+243 silly addNameRange     '1.0.0',
+243 silly addNameRange     '1.0.1',
+243 silly addNameRange     '1.0.2',
+243 silly addNameRange     '1.0.3',
+243 silly addNameRange     '1.0.4',
+243 silly addNameRange     '1.0.5',
+243 silly addNameRange     '1.0.6',
+243 silly addNameRange     '1.0.7',
+243 silly addNameRange     '1.0.8',
+243 silly addNameRange     '2.0.0',
+243 silly addNameRange     '2.1.0',
+243 silly addNameRange     '2.1.1',
+243 silly addNameRange     '2.2.0',
+243 silly addNameRange     '2.2.1',
+243 silly addNameRange     '2.2.2',
+243 silly addNameRange     '2.3.0',
+243 silly addNameRange     '2.3.1',
+243 silly addNameRange     '2.3.2',
+243 silly addNameRange     '2.3.3',
+243 silly addNameRange     '2.3.4',
+243 silly addNameRange     '2.3.5',
+243 silly addNameRange     '2.3.6',
+243 silly addNameRange     '2.3.7',
+243 silly addNameRange     '2.3.8',
+243 silly addNameRange     '2.3.9',
+243 silly addNameRange     '2.3.10',
+243 silly addNameRange     '2.3.11',
+243 silly addNameRange     '2.3.12',
+243 silly addNameRange     '2.4.0',
+243 silly addNameRange     '2.4.1',
+243 silly addNameRange     '2.4.2',
+243 silly addNameRange     '2.4.3',
+243 silly addNameRange     '2.4.4',
+243 silly addNameRange     '2.4.5',
+243 silly addNameRange     '2.4.6',
+243 silly addNameRange     '2.4.7',
+243 silly addNameRange     '2.5.0',
+243 silly addNameRange     '2.5.1',
+243 silly addNameRange     '2.5.2',
+243 silly addNameRange     '2.5.3',
+243 silly addNameRange     '2.5.4',
+243 silly addNameRange     '2.5.5',
+243 silly addNameRange     '2.5.6',
+243 silly addNameRange     '2.5.7',
+243 silly addNameRange     '2.5.8',
+243 silly addNameRange     '2.5.9',
+243 silly addNameRange     '2.5.10',
+243 silly addNameRange     '2.5.11',
+243 silly addNameRange     '3.0.0',
+243 silly addNameRange     '3.0.1',
+243 silly addNameRange     '3.0.2',
+243 silly addNameRange     '3.0.3',
+243 silly addNameRange     '3.0.4',
+243 silly addNameRange     '3.0.5',
+243 silly addNameRange     '3.0.6',
+243 silly addNameRange     '3.1.0',
+243 silly addNameRange     '3.1.1',
+243 silly addNameRange     '3.1.2',
+243 silly addNameRange     '3.2.0',
+243 silly addNameRange     '3.2.1',
+243 silly addNameRange     '3.2.2',
+243 silly addNameRange     '3.2.3',
+243 silly addNameRange     '3.2.4',
+243 silly addNameRange     '3.2.5',
+243 silly addNameRange     '3.2.6',
+243 silly addNameRange     '3.3.0',
+243 silly addNameRange     '3.3.1',
+243 silly addNameRange     '3.3.2',
+243 silly addNameRange     '3.3.3',
+243 silly addNameRange     '3.3.4',
+243 silly addNameRange     '3.3.5',
+243 silly addNameRange     '3.3.6',
+243 silly addNameRange     '1.0.0-beta',
+243 silly addNameRange     '1.0.0-beta2',
+243 silly addNameRange     '1.0.0-rc',
+243 silly addNameRange     '1.0.0-rc2',
+243 silly addNameRange     '1.0.0-rc3',
+243 silly addNameRange     '1.0.0-rc4',
+243 silly addNameRange     '2.0.0-beta',
+243 silly addNameRange     '2.0.0-beta2',
+243 silly addNameRange     '2.0.0-beta3',
+243 silly addNameRange     '2.0.0-rc',
+243 silly addNameRange     '2.0.0-rc2',
+243 silly addNameRange     '2.0.0-rc3',
+243 silly addNameRange     '3.0.0-alpha1',
+243 silly addNameRange     '3.0.0-alpha2',
+243 silly addNameRange     '3.0.0-alpha3',
+243 silly addNameRange     '3.0.0-alpha4',
+243 silly addNameRange     '3.0.0-alpha5',
+243 silly addNameRange     '3.0.0-beta1',
+243 silly addNameRange     '3.0.0-beta2',
+243 silly addNameRange     '3.0.0-beta3',
+243 silly addNameRange     '3.0.0-beta4',
+243 silly addNameRange     '3.0.0-beta6',
+243 silly addNameRange     '3.0.0-beta7',
+243 silly addNameRange     '3.0.0-rc1',
+243 silly addNameRange     '3.0.0-rc2',
+243 silly addNameRange     '3.0.0-rc3',
+243 silly addNameRange     '3.0.0-rc4',
+243 silly addNameRange     '3.0.0-rc5',
+243 silly addNameRange     '3.3.7',
+243 silly addNameRange     '3.3.8',
+243 silly addNameRange     '3.4.0',
+243 silly addNameRange     '3.4.1',
+243 silly addNameRange     '3.4.2',
+243 silly addNameRange     '3.4.3',
+243 silly addNameRange     '3.4.4',
+243 silly addNameRange     '3.4.5',
+243 silly addNameRange     '3.4.6',
+243 silly addNameRange     '3.4.7',
+243 silly addNameRange     '3.4.8',
+243 silly addNameRange     '4.0.0-rc1',
+243 silly addNameRange     '4.0.0-rc2',
+243 silly addNameRange     '3.5.0',
+243 silly addNameRange     '4.0.0-rc3',
+243 silly addNameRange     '4.0.0-rc4',
+243 silly addNameRange     '3.5.1',
+243 silly addNameRange     '4.0.0',
+243 silly addNameRange     '3.5.2',
+243 silly addNameRange     '4.1.0',
+243 silly addNameRange     '4.1.1',
+243 silly addNameRange     '3.5.3',
+243 silly addNameRange     '4.1.2',
+243 silly addNameRange     '3.6.0',
+243 silly addNameRange     '4.2.0',
+243 silly addNameRange     '3.7.0',
+243 silly addNameRange     '3.8.0',
+243 silly addNameRange     '4.3.0',
+243 silly addNameRange     '4.3.1',
+243 silly addNameRange     '3.8.1',
+243 silly addNameRange     '4.3.2',
+243 silly addNameRange     '3.9.0',
+243 silly addNameRange     '4.4.0',
+243 silly addNameRange     '4.4.1',
+243 silly addNameRange     '3.10.0',
+243 silly addNameRange     '3.10.1',
+243 silly addNameRange     '3.10.2',
+243 silly addNameRange     '3.10.3',
+243 silly addNameRange     '3.10.4',
+243 silly addNameRange     '4.4.2',
+243 silly addNameRange     '3.10.5',
+243 silly addNameRange     '4.4.3',
+243 silly addNameRange     '3.11.0',
+243 silly addNameRange     '4.4.4',
+243 silly addNameRange     '3.12.0',
+243 silly addNameRange     '3.12.1',
+243 silly addNameRange     '4.4.5',
+243 silly addNameRange     '3.13.0',
+243 silly addNameRange     '4.5.0',
+243 silly addNameRange     '4.5.1',
+243 silly addNameRange     '3.14.0',
+243 silly addNameRange     '4.6.0',
+243 silly addNameRange     '4.6.1',
+243 silly addNameRange     '3.15.0',
+243 silly addNameRange     '4.7.0',
+243 silly addNameRange     '3.15.1',
+243 silly addNameRange     '4.7.1',
+243 silly addNameRange     '3.15.2',
+243 silly addNameRange     '4.7.2',
+243 silly addNameRange     '4.7.3',
+243 silly addNameRange     '3.15.3',
+243 silly addNameRange     '4.7.4',
+243 silly addNameRange     '3.16.0',
+243 silly addNameRange     '4.8.0',
+243 silly addNameRange     '3.16.1',
+243 silly addNameRange     '4.8.1',
+243 silly addNameRange     '3.16.2',
+243 silly addNameRange     '4.8.2',
+243 silly addNameRange     '3.16.3',
+243 silly addNameRange     '3.16.4',
+243 silly addNameRange     '4.8.3',
+243 silly addNameRange     '3.16.5',
+243 silly addNameRange     '3.16.6',
+243 silly addNameRange     '4.8.4',
+243 silly addNameRange     '3.16.7',
+243 silly addNameRange     '4.8.5',
+243 silly addNameRange     '3.16.8',
+243 silly addNameRange     '4.8.6',
+243 silly addNameRange     '3.16.9',
+243 silly addNameRange     '4.8.7',
+243 silly addNameRange     '3.16.10',
+243 silly addNameRange     '4.8.8',
+243 silly addNameRange     '3.17.0',
+243 silly addNameRange     '3.17.1',
+243 silly addNameRange     '4.9.0',
+243 silly addNameRange     '3.17.2',
+243 silly addNameRange     '4.9.1',
+243 silly addNameRange     '4.9.2',
+243 silly addNameRange     '3.17.3',
+243 silly addNameRange     '4.9.3',
+243 silly addNameRange     '3.17.4',
+243 silly addNameRange     '4.9.4',
+243 silly addNameRange     '3.17.5',
+243 silly addNameRange     '4.9.5',
+243 silly addNameRange     '3.17.6',
+243 silly addNameRange     '3.17.7',
+243 silly addNameRange     '4.9.6',
+243 silly addNameRange     '4.9.7',
+243 silly addNameRange     '3.17.8',
+243 silly addNameRange     '4.9.8',
+243 silly addNameRange     '3.18.0',
+243 silly addNameRange     '3.18.1',
+243 silly addNameRange     '4.10.0',
+243 silly addNameRange     '3.18.2',
+243 silly addNameRange     '4.10.1',
+243 silly addNameRange     '5.0.0-alpha.1',
+243 silly addNameRange     '3.18.3',
+243 silly addNameRange     '4.10.2',
+243 silly addNameRange     '3.18.4',
+243 silly addNameRange     '4.10.3',
+243 silly addNameRange     '4.10.4',
+243 silly addNameRange     '4.10.5',
+243 silly addNameRange     '3.18.5',
+243 silly addNameRange     '3.18.6',
+243 silly addNameRange     '4.10.6',
+243 silly addNameRange     '4.10.7',
+243 silly addNameRange     '3.19.0',
+243 silly addNameRange     '4.10.8',
+243 silly addNameRange     '4.11.0',
+243 silly addNameRange     '3.19.1',
+243 silly addNameRange     '4.11.1',
+243 silly addNameRange     '3.19.2',
+243 silly addNameRange     '4.11.2',
+243 silly addNameRange     '3.20.0',
+243 silly addNameRange     '4.12.0',
+243 silly addNameRange     '3.20.1',
+243 silly addNameRange     '4.12.1',
+243 silly addNameRange     '4.12.2',
+243 silly addNameRange     '3.20.2',
+243 silly addNameRange     '4.12.3' ] ]
+244 verbose addNamed [ 'express', '4.11.2' ]
+245 verbose addNamed [ '4.11.2', '4.11.2' ]
+246 silly lockFile 69e74cc8-express-4-11-2 express@4.11.2
+247 verbose lock express@4.11.2 /Users/treasureporth/.npm/69e74cc8-express-4-11-2.lock
+248 silly lockFile 69e74cc8-express-4-11-2 express@4.11.2
+249 silly lockFile 69e74cc8-express-4-11-2 express@4.11.2
+250 silly lockFile 494d735c-express-4-11-1 express@~4.11.1
+251 silly lockFile 494d735c-express-4-11-1 express@~4.11.1
+252 error Error: EACCES, mkdir '/Users/treasureporth/.npm/debug/2.1.3'
+252 error  { [Error: EACCES, mkdir '/Users/treasureporth/.npm/debug/2.1.3']
+252 error   errno: 3,
+252 error   code: 'EACCES',
+252 error   path: '/Users/treasureporth/.npm/debug/2.1.3',
+252 error   parent: 'myFirstExpressApp' }
+253 error Please try running this command again as root/Administrator.
+254 error System Darwin 14.0.0
+255 error command "node" "/usr/local/bin/npm" "install"
+256 error cwd /Users/treasureporth/Desktop/prac/myExpressApp/myFirstExpressApp
+257 error node -v v0.10.35
+258 error npm -v 1.4.28
+259 error path /Users/treasureporth/.npm/debug/2.1.3
+260 error code EACCES
+261 error errno 3
+262 error stack Error: EACCES, mkdir '/Users/treasureporth/.npm/debug/2.1.3'
+263 verbose exit [ 3, true ]
